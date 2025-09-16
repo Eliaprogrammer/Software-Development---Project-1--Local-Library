@@ -79,8 +79,9 @@ public class Patron {
      */
     @Override
     public String toString(){
-        return "Patron{ "+ getIdNumber() + "-" + getName() + "-" + getAddress() + "-" + getFines();
+        return getIdNumber() + "-" + getName() + "-" + getAddress() + "-" + getFines();
     }
 
 
 }
+
